@@ -5,21 +5,6 @@ It is configured to execute trades based on predefined parameters and strategies
 
 The bot can monitor market conditions in real-time, such as pool burn, mint renounced and other factors, and it will execute trades when these conditions are fulfilled.
 
-## Setup
-
-To run the script you need to:
-
-- Create a new empty Solana wallet
-- Transfer some SOL to it.
-- Convert some SOL to USDC or WSOL.
-  - You need USDC or WSOL depending on the configuration set below.
-- Configure the script by updating `.env.copy` file (remove the .copy from the file name when done).
-  - Check [Configuration](#configuration) section bellow
-- Install dependencies by typing: `npm install`
-- Run the script by typing: `npm run start` in terminal
-
-You should see the following output:  
-![output](readme/output.png)
 
 ### Configuration
 
